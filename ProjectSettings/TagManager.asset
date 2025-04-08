@@ -2,8 +2,13 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - Coin
+  - Ground
+  - Trap
+  - Key
   layers:
   - Default
   - TransparentFX
@@ -11,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -41,3 +46,26 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 2840688669
+    locked: 0
+  - name: Ground
+    uniqueID: 4006091125
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1258901919
+    locked: 0
+  - name: Enemy
+    uniqueID: 3577243129
+    locked: 0
+  - name: Player
+    uniqueID: 3957619779
+    locked: 0
+  - name: Coin
+    uniqueID: 106705323
+    locked: 0
+  - name: UI
+    uniqueID: 62644533
+    locked: 0
+  m_RenderingLayers:
+  - Default
